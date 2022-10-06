@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  background-color: rgb(36, 13, 13);
+  color: white;
+  padding: 3px;
+  align-items: center;
+}
+
+.header p {
+  margin-right: 300px;
+}
+
+.img-icon {
+  height: 40px;
+  margin-left: 30px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.header .navbar a:hover {
+  text-decoration: none;
+  color: #29d9d5;
+}
+
+.header .navbar li {
+  list-style: none;
+  display: inline;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  flex-direction: row;
+}
+
+.btn {
+  height: 30px;
+  color: #29d9d5;
+  background: none;
+  border: 1.5px solid #29d9d5;
+  border-radius: 30px;
+  width: 90px;
+}
+
+.btn:hover {
+  background-color: #29d9d5;
+  color: rgb(36, 13, 13);
+  font-weight: bolder;
+}
+
+.home-container {
+  margin: 10px 80px;
+  display: grid;
+  grid-template-rows: 1fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 12px;
+}
+
+.item {
+  background-color: rgb(236, 194, 167);
+  border-radius: 12px;
+}
+
+.item:hover {
+  filter: grayscale();
+}
+
+#box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 12px;
+  height: 55px;
+  overflow-y: hidden;
+}
+
+#box2 {
+  background-image: url(/images/mountains.jpeg);
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+}
+
+#box3 {
+  background-image: url(/images/trees.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+#box4 {
+  background-image: url(/images/desert.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+#box5 {
+  background-image: url(/images/river.jpeg);
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+}
+
+#box6 {
+  background-image: url(/images/flower.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+#box7 {
+  background-image: url(/images/lhouse.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+.heading {
+  color: blue;
+  font-weight: bold;
+}
+
+.foot {
+  background-image: url(https://kashmirskischool.com/wp-content/uploads/2018/12/ice-skating-kashmir-ski-school-1170x658.jpg);
+  background-size: cover;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  display: grid;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  line-height: 1.5;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.subscribe {
+  background-color: black;
+  border: 1px solid #29d9d5;
+  color: #29d9d5;
+  padding: 5px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.booktrial {
+  background: none;
+  border: 1px solid #29d9d5;
+  color: #29d9d5;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  background-color: #29d9d5;
+  border: 1px solid #29d9d5;
+  color: black;
+  padding: 5px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.booktrial:hover {
+  background: #29d9d5;
+  border: 1px solid #29d9d5;
+  color: black;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 30px;
+  cursor: pointer;
+}
